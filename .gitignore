@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.wandb/
+wandb/
+data/
+*.pt
+*.safetensors
+checkpoints/
+
+# not published
+report.pdf
+problem-statement.pdf
