@@ -1,0 +1,4 @@
+# Variant 1: standard 2-layer MLP (baseline)
+model:
+  use_moe: false
+  d_ff: 1536

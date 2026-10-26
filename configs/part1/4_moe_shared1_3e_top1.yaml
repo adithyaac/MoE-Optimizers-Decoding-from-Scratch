@@ -1,0 +1,8 @@
+# Variant 4: 1 shared (always on) + 3 routed, 1 routed active (2 of 4 active).
+# Same TOTAL params as dense: (1 + 3) x 384 = 1536
+model:
+  use_moe: true
+  n_shared: 1
+  n_experts: 3
+  top_k: 1
+  d_expert: 384

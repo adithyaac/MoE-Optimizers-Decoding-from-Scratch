@@ -1,0 +1,6 @@
+# Variant 3: 4 experts, 2 active. Same TOTAL params as dense: 4 x 384 = 1536
+model:
+  use_moe: true
+  n_experts: 4
+  top_k: 2
+  d_expert: 384
